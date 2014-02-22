@@ -15,9 +15,10 @@ namespace MocksTesting.Tests
         {
             MockWebService mockWebService = new MockWebService();
 
-            LogAnalyzer logAnalyzer = new LogAnalyzer();
-
-            logAnalyzer.WebService = mockWebService;
+            LogAnalyzer logAnalyzer = new LogAnalyzer
+            {
+                WebService = mockWebService
+            };
 
             logAnalyzer.Analyze("abc.txt");
 
