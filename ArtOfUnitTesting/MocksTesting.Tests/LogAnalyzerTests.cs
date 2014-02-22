@@ -13,9 +13,9 @@ namespace MocksTesting.Tests
         [Test]
         public void Analyze_ShortFileName_LogsError()
         {
-            MockWebService mockWebService = new MockWebService();
+            var mockWebService = new MockWebService();
 
-            LogAnalyzer logAnalyzer = new LogAnalyzer
+            var logAnalyzer = new LogAnalyzer
             {
                 WebService = mockWebService
             };
