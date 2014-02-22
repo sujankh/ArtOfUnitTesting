@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MocksTesting
 {
-    public class Class1
+    public class LogAnalyzer
     {
 
     }
